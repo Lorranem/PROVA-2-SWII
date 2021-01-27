@@ -1,0 +1,27 @@
+﻿@model Produto
+<form asp-action="UpdateProduto" method="post" asp-route-id="Id" class="bg-light" style="padding:15px; border-radius:15px">
+    <h2>Edite um Produto</h2>
+    <div class="form-group">
+        <label for="Id">Id:</label>
+        <input class="form-control" asp-for="Id" />
+    </div>
+    <div class="form-group">
+        <label for="Nome">Nome:</label>
+        <input class="form-control" asp-for="Nome" />
+    </div>
+    <div class="form-group">
+        <label for="Preco">Preço:</label>
+        <input class="form-control" asp-for="Preco" />
+    </div>
+    <div class="form-group">
+        <label for="IdUsuarioCadastro">Criado por UsuárioId:</label>
+        <input class="form-control" asp-for="IdUsuarioCadastro" disabled />
+    </div>
+    <div class="form-group">
+        <label for="IdUsuarioUpdate">Editado por UsuárioId (*):</label>
+        <input class="form-control" asp-for="IdUsuarioUpdate" required />
+    </div>
+    <div class="text-center panel-body">
+        <button type="submit" class="btn btn-sm btn-primary">Editar</button>
+    </div>
+</form>

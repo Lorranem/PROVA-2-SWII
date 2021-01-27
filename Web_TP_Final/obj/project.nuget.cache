@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "C/fH5Xr94FjX8Febc1Si4apdhJcsAVMpA0yJOtcTiCofCzAYWTWdjVOvDIrAbU+PoXekMgC2psJ48yzfVnjSSQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PC Gamer\\Desktop\\tp final\\SWII_TP_Final-master\\Web_TP_Final\\Web_TP_Final.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PC Gamer\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
